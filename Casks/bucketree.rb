@@ -9,7 +9,9 @@ cask "bucketree" do
 
   livecheck do
     url "https://updates.bucketree.app/appcast.xml"
-    strategy :sparkle, &:short_version
+    strategy :sparkle do |item|
+      "#{item.short_version},#{item.version}"
+    end
   end
 
   auto_updates true
