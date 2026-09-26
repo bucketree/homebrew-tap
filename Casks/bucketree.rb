@@ -1,6 +1,6 @@
 cask "bucketree" do
-  version "1.0.1,811"
-  sha256 "e6b5358c3ee3cdd21f807a74bf92fef63e4320cdef9f72accb88eacfe8930b85"
+  version "1.1.0,826"
+  sha256 "de1bf40331bf27494486bbb5792f2be100a73e4c1bc68353d0e31d696ec7ab0f"
 
   url "https://updates.bucketree.app/Bucketree-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Bucketree"
